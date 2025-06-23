@@ -126,7 +126,7 @@ def initialize_optional_new_columns(df, optional_new_columns):
     return df
 
 
-# Define helper functions for label_payment_data and label_product_data.
+# Define helper functions for label_rows.
 
 def label_payment_data(df):
     for index in tqdm(df.index):
